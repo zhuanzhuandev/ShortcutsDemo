@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShortcutsDemo</string>
+    <string name="static_shortcut_disabled_message">static shortcut disabled message</string>
+    <string name="static_shortcut_long_label_1">static shortcut long label 1</string>
+    <string name="static_shortcut_short_label_1">static shortcut short label 1</string>
+    <string name="static_shortcut_long_label_2">static shortcut long_label 2</string>
+    <string name="static_shortcut_short_label_2">static shortcut short label 2</string>
+</resources>

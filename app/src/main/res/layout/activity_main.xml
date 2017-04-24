@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:alignContent="stretch"
+    app:alignItems="stretch"
+    app:flexWrap="wrap"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/startSettingsActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="应用设置界面" />
+
+    <Button
+        android:id="@+id/getShortcutsInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取Shortcuts信息" />
+
+    <Button
+        android:id="@+id/removeAllDynamicShortcuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空动态Shortcuts" />
+
+    <Button
+        android:id="@+id/setDynamicShortcuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建动态Shortcuts" />
+
+    <Button
+        android:id="@+id/updateDynamicShortcuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新动态Shortcuts" />
+
+    <Button
+        android:id="@+id/addDynamicShortcuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="添加动态Shortcuts" />
+
+    <Button
+        android:id="@+id/disableShortcuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="禁用动态Shortcuts" />
+
+    <Button
+        android:id="@+id/enableShortcuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启用动态Shortcuts" />
+</com.google.android.flexbox.FlexboxLayout>
